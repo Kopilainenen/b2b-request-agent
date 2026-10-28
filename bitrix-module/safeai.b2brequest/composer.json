@@ -1,0 +1,22 @@
+{
+  "name": "safeai/b2b-request-bitrix",
+  "description": "Security-first B2B request module for 1C-Bitrix",
+  "type": "bitrix-d7-module",
+  "require": {
+    "php": ">=8.4.27",
+    "ext-fileinfo": "*",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*",
+    "ext-zip": "*"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^2.1",
+    "phpunit/phpunit": "^12.0"
+  },
+  "scripts": {
+    "analyse": "phpstan analyse --memory-limit=512M",
+    "test": "phpunit"
+  }
+}
+

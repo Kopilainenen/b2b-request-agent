@@ -1,0 +1,12 @@
+parameters:
+    level: 8
+    paths:
+        - lib
+        - admin
+        - install/components
+    excludePaths:
+        analyse:
+            - install/index.php
+    bootstrapFiles:
+        - phpstan-bootstrap.php
+
